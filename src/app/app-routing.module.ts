@@ -7,7 +7,7 @@ const routes: Routes = [];
 @NgModule({
   imports: [RouterModule.forRoot(routes),
     NgbPaginationModule,
-    NgbAlertModule,
+    NgbAlertModule
   ],
   exports: [RouterModule]
 })
