@@ -27,7 +27,7 @@ const NgxBootstrapModule = [
     BrowserAnimationsModule,
     NgbModule,
     FormsModule,
-    NgxBootstrapModule
+    NgxBootstrapModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
