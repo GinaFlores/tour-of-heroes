@@ -1,0 +1,12 @@
+:root{
+  --color-primary:#151515;
+  --color-secondary:#202020;
+  --color-font:#FFFFFF;
+  --color-danger: #E62429
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  paddin:0;
+}
