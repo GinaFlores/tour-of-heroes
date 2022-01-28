@@ -1,14 +1,16 @@
-<header>
-  <div>
-    <img src="../../../../assets/logo/logo.png">
-  </div>
-  <nav>
-    <ul>
+  <nav class="nav">
+    <input type="checkbox" name="" id="nav_checkbox" class="nav_checkbox">
+    <label for="nav_checkbox" class="nav_toggle">
+      <fa-icon [icon]="faBars" style="fill: white; font-size: 30px;" class="menu"></fa-icon>
+      <fa-icon [icon]="faTimes" style="fill: white; font-size: 30px;" class="close"></fa-icon>
+    </label>
+    <ul class="nav_menu">
+      <li class="logo_li">
+        <img src="../../../../assets/logo/logo.png" class="menu_logo">
+      </li>
       <li><a href="">Home</a></li>
       <li><a href="">Heroes</a></li>
       <li><a href="">Contact Us</a></li>
       <li><a href="">Statistics</a></li>
     </ul>
   </nav>
-  <span><i class="fas fa-bars"></i></span>
-</header>
