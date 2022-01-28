@@ -1,6 +1,5 @@
 import { HerosComponent } from './components/home/heros/heros.component';
 import { ContacUsComponent } from './components/contac-us/contac-us.component';
-import { ContainerHomeComponent } from './components/home/container-home/container-home.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { HeroComponent } from './components/home/hero/hero.component';
