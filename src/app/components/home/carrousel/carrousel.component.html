@@ -1,0 +1,6 @@
+<carousel [interval]="myInterval" [(activeSlide)]="activeSlideIndex" >
+  <slide *ngFor="let slide of slides; let index=index">
+    <img class="all-image" [src]="slide.image" alt="image slide" style="display: block; width: 100%;">
+  </slide>
+</carousel>
+<br/>

@@ -1,8 +1,8 @@
   <nav class="nav">
     <input type="checkbox" name="" id="nav_checkbox" class="nav_checkbox">
     <label for="nav_checkbox" class="nav_toggle">
-      <fa-icon [icon]="faBars" style="fill: white; font-size: 30px;" class="menu"></fa-icon>
-      <fa-icon [icon]="faTimes" style="fill: white; font-size: 30px;" class="close"></fa-icon>
+      <fa-icon id="bars_icon" [icon]="faBars" style="fill: white; font-size: 30px;" class="menu" (click)="toggleShow()" *ngIf="isShow" ></fa-icon>
+      <fa-icon id="close_icon" [icon]="faTimes" style="color: white; font-size: 30px;" class="close" *ngIf="isShown" (click)="toggleShow2()"></fa-icon>
     </label>
     <ul class="nav_menu">
       <li class="logo_li">
