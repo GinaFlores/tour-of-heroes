@@ -10,10 +10,25 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 export class HeaderComponent implements OnInit {
   faBars = faBars;
   faTimes = faTimes;
+  isShown: boolean = false ;
+  isShow: boolean = true ;
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(
+
+  ): void {
+  }
+
+  toggleShow() {
+      this.isShown = true;
+      this.isShow = false
+    }
+
+
+  toggleShow2() {
+    this.isShown = false;
+    this.isShow = true;
   }
 
 }
