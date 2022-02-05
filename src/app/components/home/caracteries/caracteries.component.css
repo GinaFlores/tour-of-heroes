@@ -1,0 +1,45 @@
+.categoryContainer {
+    padding: 0 8px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.categoryAddress {
+    background-color: var(--color-sencondary);
+}
+
+.divImg {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.imgHeroes,
+.imgStatistic,
+.imgContactUs {
+    width: 100%;
+}
+
+.categoryBtn {
+    background-color: var(--color-danger);
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    color: var(--color-font);
+    width: 100%;
+}
+
+.categories {
+    margin-bottom: 1rem;
+}
+
+.btnContainer {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+p {
+    padding-top: 5px;
+}
