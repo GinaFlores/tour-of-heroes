@@ -1,3 +1,4 @@
+import { FooterComponent } from './footer/footer.component';
 import { CarruselComponent } from './carrousel/carrousel.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CommonModule } from "@angular/common";
@@ -15,7 +16,8 @@ import { CarrouselModule } from './carrousel/carrousel.module';
         HomeComponent,
         //ContainerHomeComponent,
         HeaderComponent,
-        CarruselComponent
+        CarruselComponent,
+        FooterComponent
     ],
     imports: [
         CommonModule,
