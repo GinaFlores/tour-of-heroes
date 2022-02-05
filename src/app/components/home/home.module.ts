@@ -10,6 +10,7 @@ import { HomeComponent } from "./home.component";
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CarouselComponent } from 'ngx-bootstrap/carousel';
 import { CarrouselModule } from './carrousel/carrousel.module';
+import { CaracteriesComponent } from './caracteries/caracteries.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { CarrouselModule } from './carrousel/carrousel.module';
         //ContainerHomeComponent,
         HeaderComponent,
         CarruselComponent,
-        FooterComponent
+        FooterComponent,
+        CaracteriesComponent
     ],
     imports: [
         CommonModule,
