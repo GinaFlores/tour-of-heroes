@@ -1,15 +1,21 @@
 .all-image{
-  height: 15rem;
+  height: 200px;
 }
 
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 375px) {
   .all-image{
-    height: 25rem;
+    height: 290px;
   }
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 601px) {
   .all-image{
-    height: 40rem;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 839px) {
+  .all-image{
+    height: 63vh;
   }
 }
